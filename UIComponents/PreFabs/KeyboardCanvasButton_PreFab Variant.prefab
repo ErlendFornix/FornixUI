@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5333183656796410293, guid: c27774c5a6f459b4ea58052d2dcd0248, type: 3}
       propertyPath: _MinPosition.z
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5333183656796410295, guid: c27774c5a6f459b4ea58052d2dcd0248, type: 3}
       propertyPath: m_Size.x
