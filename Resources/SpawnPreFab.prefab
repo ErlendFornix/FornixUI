@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5333183657773127353}
   m_Layer: 0
-  m_Name: CanvasButton_PreFab
+  m_Name: SpawnPreFab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
