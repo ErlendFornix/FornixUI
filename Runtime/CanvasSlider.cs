@@ -23,11 +23,7 @@ public class CanvasSlider : MonoBehaviour
     {
         stopDisable = false;
         _FakeFinger.transform.localPosition = new Vector3(0, 0, 50);
-    }
-
-    IEnumerator SmallDelay ()
-    {
-        yield return new WaitForSeconds(0.4f);
-        if (!stopDisable) _FakeFinger.SetActive(false);
+     //   CoroutineHandler.ActionWithDelay(() => { if (!stopDisable) _FakeFinger.SetActive(false); }, 0.4f);
+        // _FakeFinger.SetActive(false);
     }
 }
